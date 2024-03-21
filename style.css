@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+:root {
+  --primary-bright-orange: hsl(31, 77%, 52%);
+  --primary-dark-cyan: hsl(184, 100%, 22%);
+  --primary-very-dark-cyan: hsl(179, 100%, 13%);
+  --neutral-transparent-white: hsla(0, 0%, 100%, 0.75);
+  --neutral-very-light-gray: hsl(0, 0%, 95%);
+  --ff-primary: Big Shoulders Display;
+  --ff-secoundry: Lexend Deca;
+  --ff-400: 400;
+  --ff-700: 700;
+  --fs-100: 15px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+}
+
+body {
+  font-family: var(--ff-secoundry);
+  display: flex;
+  background-color: hsl(0, 0%, 95%);
+  align-items: center;
+  justify-content: center;
+}
+
+.card-container {
+  max-width: min(96%, 43.75rem);
+  margin-inline: auto;
+  display: flex;
+  border-radius: 0.75rem;
+  overflow: hidden;
+}
+.card-container .card.bg-bright-orange {
+  background-color: hsl(31, 77%, 52%);
+}
+.card-container .card.bg-bright-orange a {
+  color: hsl(31, 77%, 52%);
+}
+.card-container .card.bg-bright-orange a:hover {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+}
+.card-container .card.bg-dark-cyan {
+  background-color: hsl(184, 100%, 22%);
+}
+.card-container .card.bg-dark-cyan a {
+  color: hsl(184, 100%, 22%);
+}
+.card-container .card.bg-dark-cyan a:hover {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+}
+.card-container .card.bg-very-dark-cyan {
+  background-color: hsl(179, 100%, 13%);
+}
+.card-container .card.bg-very-dark-cyan a {
+  color: hsl(179, 100%, 13%);
+}
+.card-container .card.bg-very-dark-cyan a:hover {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.card {
+  padding: 2rem;
+  gap: 4.5rem;
+  display: flex;
+  flex-direction: column;
+}
+.card__img {
+  width: 50px;
+}
+.card__title {
+  font-size: 2.8rem;
+  color: hsl(0, 0%, 95%);
+  font-weight: 700;
+  font-family: var(--ff-primary);
+}
+.card__dscr {
+  font-size: var(--fs-100);
+  font-weight: 400;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+.card__btn {
+  background-color: hsl(0, 0%, 95%);
+  max-width: 120px;
+  padding: 0.65rem;
+  font-size: 0.9rem;
+  text-align: center;
+  transition: all ease-in-out 0.5s;
+  border-radius: 2rem;
+}
+
+@media only screen and (max-width: 650px) {
+  .card-container {
+    margin: 30px 0;
+    flex-direction: column;
+  }
+  .card {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=/style.a6dae8f7.css.map */
