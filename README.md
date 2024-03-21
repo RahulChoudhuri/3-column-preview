@@ -2,6 +2,6 @@
 
 ![Design preview for the 3-column preview card component coding challenge](./design/desktop-preview.jpg)
 
-## Welcome! 👋
+## Welcome! 👋 https://rahulchoudhuri.github.io/3-column-preview/
 
 **Have fun building!** 🚀
